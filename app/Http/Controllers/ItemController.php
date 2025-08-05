@@ -15,7 +15,10 @@ class ItemController extends Controller
      */
     public function index()
     {
-        return Item::orderBy('created_at', 'DESC')->get();
+        $items = Item::orderBy('created_at', 'DESC')->get();
+        // print_r($items);
+        foreach($items as &$item){ $item->completed = (bool) $item->completed;}
+        return $items;
     }
 
     /**
