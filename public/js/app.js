@@ -41956,7 +41956,7 @@ var _hoisted_3 = {
   "class": "mb-5"
 };
 var _hoisted_4 = {
-  "class": "some flex items-center justify-center"
+  "class": "some flex items-center justify-center text-fuchsia-700"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_font_awesome_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("font-awesome-icon");
@@ -41983,11 +41983,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     icon: "fa-solid fa-plus-square",
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([_ctx.item.name ? 'active' : 'inactive', 'plus'])
   }, null, 8 /* PROPS */, ["class"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_font_awesome_icon, {
-    icon: "fa-solid fa-user-secret"
+    icon: "fa-solid fa-user-secret",
+    "class": "text-fuchsia-700"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_font_awesome_icon, {
-    icon: "fa-solid fa-thumbs-up"
+    icon: "fa-solid fa-thumbs-up",
+    "class": "text-teal-200"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_font_awesome_icon, {
-    icon: "fa-brands fa-facebook"
+    icon: "fa-brands fa-facebook",
+    "class": "text-lime-400"
   })])]);
 }
 
@@ -42028,7 +42031,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:w-5 after:h-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-600 dark:peer-checked:bg-green-600"
   }, null, -1 /* CACHED */)), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["ms-3 text-sm font-medium text-gray-900 dark:text-gray-300", [$props.item.completed ? 'completed text-gray-500' : 'text-gray-300', '']])
-  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.item.name) + " " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.item.completed), 3 /* TEXT, CLASS */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" input type=\"checkbox\" @change=\"updateCheck()\" v-model=\"item.completed\" class=\"\" "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.item.name), 3 /* TEXT, CLASS */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" input type=\"checkbox\" @change=\"updateCheck()\" v-model=\"item.completed\" class=\"\" "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     type: "submit",
     "class": "ml-4 text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800",
     onClick: _cache[2] || (_cache[2] = function ($event) {

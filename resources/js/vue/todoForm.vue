@@ -18,10 +18,10 @@
             <font-awesome-icon icon="fa-solid fa-plus-square"
                 :class="[ item.name ? 'active' : 'inactive', 'plus']" /></button>
         </div>
-        <div class="some flex items-center justify-center">
-            <font-awesome-icon icon="fa-solid fa-user-secret" />
-            <font-awesome-icon icon="fa-solid fa-thumbs-up" />
-            <font-awesome-icon icon="fa-brands fa-facebook" />
+        <div class="some flex items-center justify-center text-fuchsia-700">
+            <font-awesome-icon icon="fa-solid fa-user-secret" class="text-fuchsia-700" />
+            <font-awesome-icon icon="fa-solid fa-thumbs-up" class="text-teal-200" />
+            <font-awesome-icon icon="fa-brands fa-facebook" class="text-lime-400" />
         </div>
     </div>
 </template>

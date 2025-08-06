@@ -19,7 +19,7 @@
             dark:peer-checked:bg-green-600"></div>
             <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"
                 :class="[item.completed ? 'completed text-gray-500' : 'text-gray-300', '']"
-            >{{ item.name }} {{ item.completed }}</span>
+            >{{ item.name }}</span>
         </label>
         <!-- input type="checkbox" @change="updateCheck()" v-model="item.completed" class="" -->
 
