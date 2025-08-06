@@ -5,7 +5,7 @@ and youtube video lesson: [Todo List App with Laravel and Vue.js](https://www.yo
 ```
 Welcome.
 ```
-### Laravel 8, Tailwindcss 3, Vue.js 3, Fontawesome icons
+### Laravel 8, Tailwindcss 3, Vue.js 3, MySQL, Fontawesome icons
 
 ![peview](_src/imgs/image.png)
 
